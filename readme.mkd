@@ -1,0 +1,4 @@
+Some Ruby Examples
+==================
+
+Each directory contains an example that demonstrates a point of exercise.
