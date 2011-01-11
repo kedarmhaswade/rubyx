@@ -6,7 +6,7 @@ of this class.
 @see Range
 =end
 class Discrete
-  attr_reader :n, :log
+  attr_reader :n
   # Creates an instance of this element, based on the given number.
   # @param [Integer] n associated number
   def initialize(n)
