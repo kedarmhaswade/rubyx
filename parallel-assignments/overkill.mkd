@@ -2,7 +2,8 @@ A discussion of Ruby's parallel assignment
 
 This is based on the book: The Ruby Programming Language by David and Matz
 
-<table caption="*Parallel assignment flexibility complexity"> 
+#Parallel assignment flexibility complexity
+<table>
 <tbody>
 <th><td>*N*</td>  <td>*Description*</td>            <td>*Use*</td>                      <td>*Equivalent alternate w/o</td> complexity*  <td>*Elegance/Complexity*</td> </th>
 </tbody>
