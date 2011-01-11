@@ -5,6 +5,6 @@ This is based on the book: The Ruby Programming Language by David and Matz
 #Parallel assignment flexibility complexity
 <table>
 <tbody>
-<th><td>*N*</td>  <td>*Description*</td>            <td>*Use*</td>                      <td>*Equivalent alternate w/o</td> complexity*  <td>*Elegance/Complexity*</td> </th>
+<th><td>*N*</td>  <td>*Description*</td>            <td>*Use*</td>                      <td>*Equivalent alternate w/o complexity*</td>  <td>*Elegance/Complexity*</td> </th>
 </tbody>
 </table>
