@@ -2,12 +2,12 @@ A discussion of Ruby's parallel assignment
 
 This is based on the book: The Ruby Programming Language by David and Matz
 
----------------------------------------------------------------------------------------------------------------------------
-ID   *Description*            *Use*                      *Equivalent alternate w/o complexity*  *Elegance/Complexity Ratio*
+--------------------------------------------------------------------------------------------------------------------------
+ID   *Description*            *Use*                      *Equivalent alternate w/o complexity*  *Elegance/Complexity*
 --- ----------------------- ---------------------------- -------------------------------------- ---------------------------
 1   Same number of lvalues   x, y, z = 1, 2, 3            x = 1; y = 2; z = 3 (close)             High
     and rvalues              x, y = y, x                  tmp = x; x = y; y = tmp
 
 2   One lvalue               x, = 1, 2, 3                 x = [1, 2, 3]                           *Low*
     multiple rvalues                                       
----------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
