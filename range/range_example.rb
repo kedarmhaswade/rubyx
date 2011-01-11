@@ -6,6 +6,7 @@ of this class.
 @see Range
 =end
 class Discrete
+  include Comparable #mix in methods from Comparable for free!
   attr_reader :n
   # Creates an instance of this element, based on the given number.
   # @param [Integer] n associated number
@@ -66,3 +67,4 @@ n = Discrete.new(11)
 r = Range.new(f, l)
 puts r.cover?(n)
 puts r.include?(n)
+puts n.between?(f, l)
