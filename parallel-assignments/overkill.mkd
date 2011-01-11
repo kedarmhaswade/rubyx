@@ -11,3 +11,4 @@ ID   *Description*            *Use*                      *Equivalent alternate w
 2   One lvalue               x, = 1, 2, 3                 x = [1, 2, 3]                           *Low*
     multiple rvalues                                       
 --------------------------------------------------------------------------------------------------------------------------
+: * Parallel assignment flexibility complexity
