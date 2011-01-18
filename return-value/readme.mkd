@@ -1,0 +1,22 @@
+Return Values from Blocks
+=========================
+
+You usually don't want to use the "return" keyword to return any value from
+a block to the iterator that called the block. Use of "return" to return values
+from a block will not only exit the block, the calling iterator, but the 
+so-called lexically enclosing method that calls the iterator itself!
+
+Sometimes, returning this way from a block is exactly what you want to do.
+But some other times, doing that way results in LocalJumpError in Ruby.
+Getting a LocalJumpError is almost like a compilation error. It's something
+that should tell you that you are incorrectly using "return" when you should
+simply be letting the block complete normally (in which case the value returned
+from the block is the value of the last expression).
+
+So, 
+
+1. When is use of return in block valid? -- Think of the classic "find" method
+that finds an element in a collection using iterator.
+
+2. When does return in block throw LocalJumpError? --
+
